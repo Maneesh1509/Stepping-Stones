@@ -5,7 +5,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script>
+         function fun1(){
+            let a="Welcome!";
+            alert(a);
+           }
+
+           function fun2(){
+            let b="Please enter your details";
+            alert(b);
+           }
+
+           function fun3(){
+            let c="Here it is!";
+            alert(c);
+           }
+
+    </script>
+    
 <style>
+    
     *{
     margin: 0;
     padding: 0;
@@ -290,7 +309,7 @@ ul li a:hover{
 
             <div class="search">
                 <input class="srch" type="search" name="" placeholder="Type To text">
-                <a href="#"> <button class="btn">Search</button></a>
+                <a href="#"> <button onclick="fun3()" class="btn">Search</button></a>
             </div>
 
         </div> 
@@ -300,13 +319,13 @@ ul li a:hover{
              <br> And to develope the website by html, css and javascript.</p>
                 
 
-                <button class="cn"><a href="#">JOIN US</a></button>
+                <button onclick="fun2()" class="cn"><a href="#">JOIN US</a></button>
 
                 <div class="form">
                     <h2>Login Here</h2>
                     <input type="email" name="email" placeholder="Enter Email Here">
                     <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
+                    <button onclick="fun1()" class="btnn"><a href="#">Login</a></button>
 
                     <p class="link">Don't have an account<br>
                     <a href="#">Sign up </a> here</a></p>
